@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>ToDos</title>
+</head>
+<body>
+  <form id="form">
+    <label>Название <input type="text" name="name" id="name" required></label>
+    <label>Дата <input type="date" name="date" id="date" required></label>
+    <label>Время начала <input type="time" min='9:00' max='18:00' name="start" id="start" required></label>
+    <label>Время конца <input type="time" min='9:00' max='18:00' name="end" id="end" required></label>
+    <button id="add">Добавить</button>
+  </form>
+  <div id="conteiner"></div>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>

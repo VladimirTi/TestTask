@@ -1,0 +1,58 @@
+html {
+  font-size: 15pt;
+}
+
+#conteiner {
+  display: flex;
+  gap: 10px;
+ 
+}
+
+.todo-list {
+  border: 1px solid black;
+  width: 350px;
+  border-radius: 1em;
+  border-radius: 5px;
+  td {
+    height: 30px;
+  }
+  input {
+    width: 70px;
+  }
+}
+
+[class|=correction] {
+  width: 75px;
+  input {
+    width: 80px;
+  }
+}
+
+th {
+  background-color: #e5e5e5;
+}
+
+form {
+  display: grid;
+  grid-template: 50px 50px 50px / 250px 250px;
+  grid-gap: 15px;
+  input {
+    width: 245px;
+    background-color: #f7f8f9;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  button {
+    font-size: 13pt;
+    grid-column-start: 2;
+    justify-self: end;
+    border: none;
+    width: 200px;
+    height: 35px;
+    color: white;
+    background-color: orangered;
+    border-radius: 5px;
+  }
+}
